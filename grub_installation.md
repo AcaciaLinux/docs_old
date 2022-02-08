@@ -101,6 +101,15 @@ linux    ${rel_dirname}/${basename} root=${linux_root_device_thisversion} rw ${a
 
 Note that only "ro" was chaged to "rw " in this line, this is to tell linux to make the root partition writeable
 
+#### vmlinuz
+
+For some reason, we include a vmlinuz and vmlinuz-arch in our /boot/ folder, grub-mkconfig will use the archlinux kernel, so we have to remove it and use the AcaciaLinux vmlinuz:
+
+```bash
+rm /boot/vmlinuz-arch
+mv /boot/vmlinuz /boot/vmlinuz-acacia
+```
+
 #### Generating GRUB config file
 
 Now we can generate our grub.cfg file using the following command:
@@ -109,4 +118,6 @@ Now we can generate our grub.cfg file using the following command:
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
+## Done!
 
+You have now successfully installed GRUB for your AcaciaLinux system, you may now reboot to use it!
