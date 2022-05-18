@@ -1,0 +1,113 @@
+acl:
+	attr
+
+attr:
+	glibc
+	(b) gettext
+
+autoconf:
+        gawk
+        diffutils
+        m4
+        perl
+        bash
+               
+automake:
+        bash
+        perl
+        (b) autoconf
+        (b) dejagnu 
+        (b) expect
+        (b) gettext
+        (b) python
+
+bash:
+	glibc
+	base
+	readline
+	ncurses
+
+bc:
+	readline
+
+binutils:
+	glibc
+	libelf
+	zlib
+	(b) git
+	(b) bc
+	(b) dejagnu
+
+bison:
+	glibc
+	gettext
+	m4
+	bash
+
+bzip2:
+	glibc
+	bash
+
+check:
+	gawk
+
+coreutils:
+	acl
+	attr
+	glibc
+	gmp
+	libcap
+	openssl
+
+dejagnu:
+	expect
+	bash
+	tcl
+
+diffutils:
+	glibc
+	bash
+
+e2fsprogs:
+	bash
+	util-linux
+	(b) systemd
+
+expat:
+	glibc
+	(b) cmake?
+
+expect:
+	tcl
+
+file:
+	glibc
+	bzip2
+	xz
+	zlib
+
+findutils:
+	glibc
+	bash
+
+flex:
+	glibc
+	m4
+	bash
+
+gawk:
+	glibc
+	mpfr
+	bash
+
+gcc:
+	binutils
+	mpc
+	zstd
+	(b) dejagnu
+	(b) expect
+	(b) tcl
+
+
+
+
