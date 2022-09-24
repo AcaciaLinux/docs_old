@@ -60,6 +60,7 @@ Errors get passed through HTTP codes. The body of the response contains addition
 
 ```txt
 - 400    The request has been malformed
+            ->    E_REQUEST    The request to the server is malformed
             ->    E_GET        The get= tag is not existing
             ->    E_PKGNAME    The pkgname= tag is missing
             ->    E_VERSION    The version= tag is missing
