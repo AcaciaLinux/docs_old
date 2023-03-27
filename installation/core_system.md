@@ -8,7 +8,7 @@ Once you have [set up](/installation/disk_setup.md) your disks and [mounted](/in
 >
 > ### You have been warned!
 
-> ## **Note**
+> ### **Note**
 >
 > For these `leaf` commands to work, you *NEED* to be `root` and you have to be able to chroot, because the installation process leads leaf to chrooting into the new system for installing some packages.
 
@@ -39,7 +39,7 @@ This is the minimal set of packages required to install AcaciaLinux. You could o
 
 This environment gives you a `bash` shell and the `leaf` package manager to install any further tooling and packages.
 
-> ## **Note**
+> ### **Note**
 >
 > This system is nowhere near being bootable! There is no kernel and not even an init (except you want to use `bash` as your init).
 
