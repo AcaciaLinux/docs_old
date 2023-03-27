@@ -13,18 +13,5 @@ Before you can start, you will need to clone the [leaf](https://github.com/Acaci
 ### 2. Creating and mounting filesystems
 After having access to `leaf`, you can start by creating and mounting your filesystems using [this guide](/installation/disk_setup.md). Once you have your root filesystem available, you can proceed to the next step.
 
-### 3. Updating the package list
-Once you have your filesystem available, you can instruct `leaf` to fetch the most up-to-date package lists:
-```bash
-leaf --root=$ACACIA_ROOT update
-```
-If you did not install `leaf` onto your host system, you can replace `leaf` with the path to your `leaf` binary.
-
-There will be prompts that some directories are not existing (of course, we install a new system...), just answer with `Y`, `leaf` will do the rest.
-
-### 4. Install the core system
-Once `leaf` has its package lists available, it is fully functional and can install a system. To accomplish that, issue the following command to install the most basic system:
-```bash
-leaf --root=$ACACIA_ROOT install base bash leaf
-```
-After another question if you want to proceed, `leaf` installs the core AcaciaLinux system and itself, so you can continue building your system.
+### 3. Installing the core system
+You can now move on to the [next step, installing the core system.](installation/core_system.md)
