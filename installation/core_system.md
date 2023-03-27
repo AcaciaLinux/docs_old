@@ -44,4 +44,4 @@ This environment gives you a `bash` shell and the `leaf` package manager to inst
 > This system is nowhere near being bootable! There is no kernel and not even an init (except you want to use `bash` as your init).
 
 ## Continuing the installation
-Now you can move on to [chrooting](installation/chrooting.md) into your new system and [installing more packages](installation/bootable_system.md).
+Now you can move on to [chrooting](/installation/chrooting.md) into your new system and [installing more packages](/installation/bootable_system.md).

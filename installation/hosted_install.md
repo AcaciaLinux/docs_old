@@ -14,4 +14,4 @@ Before you can start, you will need to clone the [leaf](https://github.com/Acaci
 After having access to `leaf`, you can start by creating and mounting your filesystems using [this guide](/installation/disk_setup.md). Once you have your root filesystem available, you can proceed to the next step.
 
 ### 3. Installing the core system
-You can now move on to the [next step, installing the core system.](installation/core_system.md)
+You can now move on to the [next step, installing the core system.](/installation/core_system.md)
